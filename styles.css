@@ -1,0 +1,74 @@
+/* Global Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background: #1f2937;
+}
+.wrapper {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.header {
+    height: 50px;
+    background: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-links li {
+    text-decoration: none;
+    display: inline;
+    padding: 0px 10px;
+}
+
+.section {
+    background: #1f2937;
+    min-height: 300px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 25px;
+    border: 1px solid #fff;
+    margin: auto;
+}
+
+.hero-info {
+    padding: 15px;
+    flex: 1 1 0%;
+}
+
+.hero-image {
+    flex: 1 1 0%;
+}
+
+.section h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.wrapper .section:nth-child(3) {
+    background: white;
+}
